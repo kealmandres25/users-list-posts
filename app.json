@@ -3,8 +3,23 @@
     "name": "user-list-app",
     "slug": "user-list-app",
     "version": "1.0.0",
+    "scheme": "user-list-app",
     "assetBundlePatterns": [
       "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "93d06092-25c9-4b2d-b8c9-aa5a6435c6ad"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/93d06092-25c9-4b2d-b8c9-aa5a6435c6ad"
+    },
+    "android": {},
+    "ios": {},
+    "plugins": [
+      "expo-router"
     ]
   },
   "name": "user-list-app"
