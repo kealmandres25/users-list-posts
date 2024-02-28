@@ -13,8 +13,6 @@ import {
 import React from "react";
 import { useColorScheme } from "nativewind";
 import { router, useLocalSearchParams } from "expo-router";
-import { useQuery } from "@tanstack/react-query";
-import axios from "axios";
 import useUserStore from "../../api/store";
 import PostCards from "../../components/PostCards";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
@@ -43,7 +41,7 @@ const ViewUser = () => {
           {/* <Text className="dark:text-slate-100"> {"< "}Back</Text> */}
         </Pressable>
         <Text className="text-slate-800 font-bold dark:text-slate-100">
-          User List
+          User Posts
         </Text>
         <View className="flex-row items-center ">
           <Switch

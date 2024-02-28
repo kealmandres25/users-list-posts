@@ -36,9 +36,13 @@ export default function Home() {
   return (
     <SafeAreaView className="dark:bg-black" style={styles.container}>
       <View className="flex-row justify-between items-center w-full px-2 h-10 bg-slate-200 dark:bg-slate-500">
-        <Text>Logo</Text>
-        <Text className="text-slate-800 font-bold dark:text-slate-100">
-          User List
+        <MaterialCommunityIcons
+            name={"account-group"}
+            size={20}
+            color={colorScheme == "dark" ? "white" : "black"}
+          />
+        <Text className="text-slate-800 font-extrabold dark:text-slate-100">
+          USER LIST
         </Text>
         <View className="flex-row items-center ">
           <Switch
